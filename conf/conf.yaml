@@ -1,0 +1,28 @@
+headers:
+  authority: www.bestbuy.com
+  method: GET
+  path: /
+  scheme: https
+  accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+  accept-encoding: gzip, deflate, br
+  accept-language: zh-CN,zh;q=0.9
+  cache-control: max-age=0
+  cookie: UID=73cbf354-33a2-470e-8b6f-2dd5f4ec2b17; CTT=0931f9d2acea873149a7f9d3bccd948b; vt=3529f710-ea70-11e9-8fea-02753f53ea0a; s_ecid=MCMID%7C68811691388460357454585031329445517545; aam_uuid=62229202128893557793928229155622171083; optimizelyEndUserId=oeu1570610332510r0.4075228756598266; oid=128810128; 52245=; _gcl_au=1.1.1338561481.1570610338; context_id=3c0c05c6-ea70-11e9-afe4-0273a09b9710; __gads=ID=b4d4ca39c7d1745a:T=1570610362:S=ALNI_MbyYEE6jjOY_H7hN22wfPv3UjXS1g; locDestZip=96939; locStoreId=852; pst2=852; _CT_RS_=Recording; WRUID=2466447901459292; ui=1571119306910; G_ENABLED_IDPS=google; ctm={'pgv':8654702647150975|'vst':3161197395491772|'vstr':8782465374505766|'intr':1571194871748|'v':1}; customerZipCode=96701|Y; aamoptsegs=aam%3D9403891; _abck=3D6041A796AB3984C14A7E24205E71C0~0~YAAQ44b+pc78MaxtAQAAD0Hu8gLtTcbu/8j0Dqq3OejQvCLdbK6C8vvmGmpMZmaDRunmfMz4YtBrgV9KozeDAHn+bOl5zvL6YkI3DheltpdEs42GgNJ+Qj0C9+dBhd55AdIgJ/dxqA939sgSz8u1Ytco1ZEVkJIEcXgFuVbKwerI1DaCx5iaz7JVB/dV+qTWL4DbibVMwfbPeJT/fZALDXyOGxVCTuQWfC40hTrIB1Bob1YZiLh0PjWdw9qz+iFD7msIGNRfvgT7ukXta+nIWR6vNdD8Nl31f+v5tWYqkWr4DSU=~-1~-1~-1; sc-location-v2=%7B%22meta%22%3A%7B%22CreatedAt%22%3A%222019-10-09T08%3A39%3A33.910Z%22%2C%22ModifiedAt%22%3A%222019-10-23T01%3A28%3A24.705Z%22%2C%22ExpiresAt%22%3A%222020-10-22T01%3A28%3A24.705Z%22%7D%2C%22value%22%3A%22%7B%5C%22physical%5C%22%3A%7B%5C%22zipCode%5C%22%3A%5C%2296939%5C%22%2C%5C%22source%5C%22%3A%5C%22A%5C%22%2C%5C%22captureTime%5C%22%3A%5C%222019-10-09T08%3A39%3A33.909Z%5C%22%7D%2C%5C%22store%5C%22%3A%7B%5C%22zipCode%5C%22%3A%5C%2296701%5C%22%2C%5C%22searchZipCode%5C%22%3A%5C%2296939%5C%22%2C%5C%22storeId%5C%22%3A%5C%22852%5C%22%2C%5C%22storeHydratedCaptureTime%5C%22%3A%5C%222019-10-09T08%3A39%3A34.363Z%5C%22%7D%2C%5C%22destination%5C%22%3A%7B%5C%22zipCode%5C%22%3A%5C%2296939%5C%22%7D%7D%22%7D; CRTOABE=0; bby_rdp=l; intl_splash=false; AAMC_bestbuy_0=REGION%7C11%7CAMSYNCSOP%7C%7CAMSYNCS%7C; basketTimestamp=1571907192524; __CT_Data=gpv=21&ckp=tld&dm=bestbuy.com&apv_6_www45=21&cpv_6_www45=21&rpv_6_www45=20; AMCV_F6301253512D2BDB0A490D45%40AdobeOrg=-330454231%7CMCMID%7C68811691388460357454585031329445517545%7CMCAAMLH-1572511999%7C11%7CMCAAMB-1572511999%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1571914398s%7CNONE%7CMCAID%7CNONE%7CMCCIDH%7C-536601250%7CvVersion%7C3.1.2
+  sec-fetch-mode: navigate
+  sec-fetch-site: none
+  sec-fetch-user: "?1"
+  upgrade-insecure-requests: "1"
+  user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+  x-client-id: lib-price-browser
+
+mongo:
+  db: bestbuy
+  host: 127.0.0.1
+  password: rootroot
+  port: 27017
+  username: root
+redis:
+  db: 0
+  host: localhost
+  password: qwer
+  port: 6379

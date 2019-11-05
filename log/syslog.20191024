@@ -1,0 +1,3 @@
+2019-10-25 09:05:33 fourth_to_get_product_detail.py[line:37] INFO: 商品详情信息URL:https://www.bestbuy.com/api/1.0/product/summaries?includeInactive=false&skus=6307792
+2019-10-25 09:05:39 fourth_to_get_product_detail.py[line:45] INFO: 商品价格信息URL:https://www.bestbuy.com/pricing/v1/price/item?catalog=bby&context=Product-Page&salesChannel=LargeView&skuId=6307792
+2019-10-25 09:05:41 fourth_to_get_product_detail.py[line:66] INFO: 商品详情信息入库成功,sku_id:6307792
